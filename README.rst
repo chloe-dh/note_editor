@@ -20,7 +20,16 @@ note-editor
 
 
 
-i to keep notes on books, movies etc
+A small gui to keep notes on stuff I watch or read.
+Install using pip install . in the folder.
+A csv file containing note information gets created with the first note.
+A PDF containing all the notes with clean layout is saved upon exiting.
+Default path is ~/notes_on_stuff.pdf. When set, the path is saved and re used evey time so that the pdf gets updated.
+
+I removed the tests for the application is too basic and testing tkinter too complicated.
+
+
+
 
 
 * Free software: GNU General Public License v3
@@ -29,8 +38,6 @@ i to keep notes on books, movies etc
 
 Features
 --------
-
-* TODO
 
 Credits
 -------

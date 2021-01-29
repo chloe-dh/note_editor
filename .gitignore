@@ -103,3 +103,8 @@ ENV/
 
 # IDE settings
 .vscode/
+
+# files
+notes.csv
+notes_backup.csv
+tests/

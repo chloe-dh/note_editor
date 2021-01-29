@@ -10,7 +10,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [ ]
+requirements = ['reportlab', ]
 
 setup_requirements = ['pytest-runner', ]
 
@@ -45,4 +45,7 @@ setup(
     url='https://github.com/chloe-dh/note_editor',
     version='0.1.0',
     zip_safe=False,
+    entry_points={
+        'console_scripts': ['note=note_editor.main:run'],
+    }
 )
